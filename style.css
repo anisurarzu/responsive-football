@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* -------------------------------------------
+         Copa America section design
+--------------------- */
+.copa-container {
+  display: flex;
+  background-color: rgb(45, 37, 160);
+}
+.copa-details {
+  margin-top: 121px;
+  margin-left: 156px;
+}
+.copa-details h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.banner img {
+  width: 556.01px;
+  height: 438px;
+  margin-top: 67px;
+  margin-left: 102px;
+}
+.button-design {
+  padding: 10px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e02c6d;
+  border: none;
+  margin-top: 27px;
+  margin-bottom: 169px;
+}
+#button-text {
+  margin-right: 8px;
+}
+
+/* Copa-America section design End */
+
+/*---------------------------
+   Players Section Start 
+   ------------------------*/
+.all-players {
+  display: flex;
+  justify-content: center;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  margin-top: 70px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-info {
+  padding: 15px 15px 33px;
+}
+.player-info img {
+  width: 300px;
+  height: 256px;
+}
+.player-info h3 {
+  font-family: "Poppins", sans-serif;
+  color: #18191f;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.player-info p {
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Players Section End */
+
+/*---------------------------
+  Social Media Section Start 
+   ------------------------*/
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.logo img {
+  width: 483.87px;
+  height: 110px;
+}
+.social-icons {
+  display: flex;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(231, 231, 232);
+  border-radius: 100%;
+  margin-left: 14px;
+}
+.icon {
+  color: #969bab;
+  margin-left: 8.8px;
+  margin-top: 8px;
+}
