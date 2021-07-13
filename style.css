@@ -83,12 +83,13 @@
   color: #6c6c6c;
   font-weight: 400;
   font-size: 16px;
+  line-height: 26px;
 }
 
 /* Players Section End */
 
 /*---------------------------
-  Social Media Section Start 
+  Social Media Section Design Start 
    ------------------------*/
 .social-media {
   display: flex;
@@ -100,8 +101,11 @@
   width: 483.87px;
   height: 110px;
 }
-.social-icons {
+#social-icons {
   display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 .social-icon {
   width: 32px;
@@ -114,4 +118,72 @@
   color: #969bab;
   margin-left: 8.8px;
   margin-top: 8px;
+}
+.fa-instagram {
+  color: #969bab;
+  margin-top: 8.4px;
+  margin-left: 9.7px;
+}
+.fa-youtube {
+  color: #969bab;
+  margin-top: 8.4px;
+  margin-left: 7.7px;
+}
+/* Social MEdia End */
+
+/* Footer Design Start */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 63px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+}
+
+/* Footer design end */
+/* ---------------
+                   Media Queries 
+                   ------------------------------*/
+/*-------------- Mobile devices ------------------*/
+
+@media only screen and (max-width: 688px) {
+  .copa-container {
+    flex-direction: column;
+  }
+  .copa-details {
+    margin-top: 52px;
+    margin-left: 16px;
+    margin-right: 66px;
+  }
+  .copa-details h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .button-design {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px, 24px, 10px, 24px;
+  }
+  .banner img {
+    width: 329px;
+    height: 259.17px;
+    margin-top: -17px;
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-bottom: 61.83px;
+  }
+
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
+  }
+
+  .logo img {
+    width: 275px;
+    height: 63px;
+  }
 }
