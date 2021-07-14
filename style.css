@@ -169,13 +169,15 @@
 /*----------------------
                    Match Schedule section start
                    -------------------------------------- */
-
+.top-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .schedul-container {
   display: flex;
-
   width: 1000px;
   height: 160px;
-  margin-left: 170px;
   border: 1px solid rgb(199, 202, 204);
   border-radius: 5px;
 }
@@ -234,7 +236,6 @@
   width: 1000px;
   height: 360px;
   margin-top: 20px;
-  margin-left: 170px;
   border: 1px solid rgb(199, 202, 204);
   border-radius: 5px;
   background: url("images/team/neymar.jpg");
@@ -402,6 +403,69 @@
     margin-bottom: 35px;
     align-items: center;
   }
+  .top-players .title {
+    font-size: 18px;
+  }
+  .button-size {
+    margin-left: 95px;
+  }
+  .schedul-container {
+    flex-direction: column;
+    width: 360px;
+    margin-bottom: 100px;
+  }
+  .match-time {
+    width: 360px;
+    margin-left: 5px;
+  }
+  .match-time p {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .team-names {
+    justify-content: center;
+    width: 360px;
+    margin-left: 10px;
+  }
+  .team img {
+    width: 40px;
+    height: 40px;
+  }
+  .final-match-container {
+    width: 360px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  .final-teams {
+    flex-direction: column;
+  }
+  .final-team {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1px;
+    margin-top: 20px;
+  }
+  .final-team img {
+    width: 50px;
+    height: 50px;
+  }
+  .final-team h3 {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .trophy {
+    margin-left: 5px;
+  }
+  .trophy img {
+    width: 40px;
+    height: 90px;
+  }
+
   .logo img {
     width: 275px;
   }
